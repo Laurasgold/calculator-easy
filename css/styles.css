@@ -1,12 +1,12 @@
 
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
 
-body{
+body {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -15,19 +15,19 @@ body{
   background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
 }
 
-.container{
-width:100%;
-max-width: 350px;
-background: rgba(255, 255, 255, 0.25);
-box-shadow:  5px 5px 10px rgba(131,58,180,0.5);
-border-radius: 10px;
+.container { 
+  width:100%;
+  max-width: 350px;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow:  5px 5px 10px rgba(131,58,180,0.5);
+  border-radius: 10px;
 }
 
-.screen{
+.screen {
   width: 100%;
 }
 
-input{
+input {
   width: 100%;
   padding: 0.2rem 0.6rem;
   font-size: 1.8rem;
@@ -38,7 +38,7 @@ input{
   border:none;
 }
 
-.cal_btn{
+.cal_btn {
   padding :1rem;
   border:none;
   transition: .4s ease-in;
@@ -47,14 +47,14 @@ input{
 
 
 
-ul{
+ul {
   display: flex;
   list-style-type: none;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-ul li{
+ul li {
   font-size: 0.9rem;
   color: black;
   width: 20%;
